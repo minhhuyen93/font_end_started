@@ -1,0 +1,49 @@
+.body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.brand{
+    border: 1px solid blue;
+    width: 150px;
+    margin: 20px 0;
+}
+
+.brand .logo{
+    width: 40px;
+}
+
+.brand .text{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.page .header{
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid red;
+    padding-left: 60px;
+}
+
+.page .content{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5px;
+    border: 1px solid red;
+}
+
+.page .footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.copy-right{
+    margin: 40px auto;
+    font-size: 13px;
+    color: gray;
+}
