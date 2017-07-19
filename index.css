@@ -1,3 +1,4 @@
+/*Start Default block  */
 .body{
     margin: 0;
 }
@@ -5,27 +6,13 @@
 p{
     margin: 0;
 }
+/*End Default block  */
 
-.brand{
-    border: 1px solid blue;
-    width: 150px;
-    margin: 20px 0;
-}
-
-.brand .logo{
-    width: 40px;
-}
-
-.brand .text{
-    font-size: 30px;
-    margin-left: 20px;
-}
-
+/*Start Page block */
 .page .header{
     width: 100%;
     margin-bottom: 5px;
     border: 1px solid red;
-    padding-left: 60px;
 }
 
 .page .content{
@@ -39,11 +26,60 @@ p{
     width: 100%;
     height: 100px;
     text-align: center;
-    border: 1px solid red;
+}
+/*End Page block  */
+
+/*Start Brand block  */
+.brand{
+    border: 1px solid blue;
+    width: 150px;
+    margin: 20px 0;
+    margin-left: 60px;
+    display: inline-block;
 }
 
+.brand .logo{
+    width: 40px;
+}
+
+.brand .text{
+    font-size: 30px;
+    margin-left: 20px;
+}
+/*End Brand block  */
+
+/* Start Navigation block*/
+.navigation{
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+.navigation .navbar-nav{
+    display: flex;
+    height: auto;
+}
+
+.navigation .navbar-nav .navbar-nav-item{
+    list-style: none;
+    height: auto;
+    width: 60px;
+    padding: 30px 15px 20px 15px;
+}
+
+.navigation .navbar-nav .navbar-nav-text{
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.navigation .navbar-nav .active{
+    border-bottom: 2px solid blue;
+}
+/*End Navigation block  */
+
+/*Start Copy-right block  */
 .copy-right{
     margin: 40px auto;
     font-size: 13px;
     color: gray;
 }
+/*End Copy-right block  */
