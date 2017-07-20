@@ -1,4 +1,4 @@
-/*Start Default block  */
+/*start default block  */
 .body{
     margin: 0;
 }
@@ -6,9 +6,14 @@
 p{
     margin: 0;
 }
-/*End Default block  */
+/*end default block  */
 
-/*Start Page block */
+/*start page block */
+.page{
+    width: auto;
+    height: auto;
+}
+
 .page .header{
     width: 100%;
     margin-bottom: 5px;
@@ -17,7 +22,6 @@ p{
 
 .page .content{
     width: 100%;
-    height: 500px;
     margin-bottom: 5px;
     border: 1px solid red;
 }
@@ -27,9 +31,9 @@ p{
     height: 100px;
     text-align: center;
 }
-/*End Page block  */
+/*end page block  */
 
-/*Start Brand block  */
+/*start brand block  */
 .brand{
     border: 1px solid blue;
     width: 150px;
@@ -46,40 +50,50 @@ p{
     font-size: 30px;
     margin-left: 20px;
 }
-/*End Brand block  */
+/*end brand block  */
 
-/* Start Navigation block*/
-.navigation{
+/* start main-navigation-container block*/
+.main-navigation-container{
     width: 33%;
     display: inline-block;
     float: right;
 }
-.navigation .navbar-nav{
+/*end main-navigation-container block  */
+
+/*start navigation-bar block*/
+.navigation-bar{
     display: flex;
     height: auto;
 }
 
-.navigation .navbar-nav .navbar-nav-item{
+.navigation-bar .navigation-bar-item{
     list-style: none;
     height: auto;
     width: 60px;
     padding: 30px 15px 20px 15px;
 }
 
-.navigation .navbar-nav .navbar-nav-text{
+.navigation-bar .navigation-bar-text{
     font-size: 16px;
     line-height: 16px;
 }
 
-.navigation .navbar-nav .active{
+.navigation-bar .active{
     border-bottom: 2px solid blue;
 }
-/*End Navigation block  */
+/*end navigation-bar block  */
 
-/*Start Copy-right block  */
-.copy-right{
+/*start copy-right-container block  */
+.copy-right-container{
+    width: 400px;
+    height: auto;
     margin: 40px auto;
+}
+/*end copy-right-container block  */
+
+/*start copy-right block  */
+.copy-right{
     font-size: 13px;
     color: gray;
 }
-/*End Copy-right block  */
+/*end copy-right block  */
