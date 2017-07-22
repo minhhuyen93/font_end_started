@@ -1,3 +1,4 @@
+/*start default block  */
 .body{
     margin: 0;
 }
@@ -5,27 +6,14 @@
 p{
     margin: 0;
 }
+/*end default block  */
 
-.brand{
-    border: 1px solid blue;
-    width: 150px;
-    margin: 20px 0;
-}
-
-.brand .logo{
-    width: 40px;
-}
-
-.brand .text{
-    font-size: 30px;
-    margin-left: 20px;
-}
+/*start page block  */
 
 .page .header{
-    width: 100%;
     margin-bottom: 5px;
     border: 1px solid red;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .page .content{
@@ -42,8 +30,17 @@ p{
     border: 1px solid red;
 }
 
-.copy-right{
-    margin: 40px auto;
-    font-size: 13px;
-    color: gray;
+/*end page block  */
+
+/*start brand block  */
+.brand{}
+
+.brand .logo{
+    width: 40px;
 }
+
+.brand .text{
+    margin-left: 10px;
+    font-size: 30px;
+}
+/*end brand block  */
