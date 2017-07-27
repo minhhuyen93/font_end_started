@@ -85,11 +85,13 @@ p{
  }
  .service-summary .content .title{
      color: #FFFFFF;
-     font-size: 24px;
+     font-size: 40px;
+     line-height: 60px;
  }
  .service-summary .content .desc{
      color: #FFFFFF;
-     font-size: 18px;
+     font-size: 20px;
+     line-height: 30px;
  }
 /*end service-sumary block  */
 
