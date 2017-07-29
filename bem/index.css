@@ -47,16 +47,16 @@ a{
 
 /*start page block  */
 
-.page .header{
+.page__header{
     margin-bottom: 5px;
     padding-left: 40px;
 }
 
-.page .content{
+.page__content{
     width: 100%;
 }
 
-.page .footer{
+.page__footer{
     width: 100%;
     height: 100px;
     text-align: center;
@@ -88,7 +88,7 @@ a{
      position: relative;
 }
 
-.slider .prev{
+.slider__prev{
     top: calc(50% - 23px);
     position: absolute;
     font-size: 40px;
@@ -96,7 +96,7 @@ a{
     display: flex;
 }
 
-.slider .next{
+.slider__next{
     position: absolute;
     top: calc(50% - 23px);
     font-size: 40px;
@@ -104,7 +104,7 @@ a{
     display: flex;
 }
 
-.slider .content{
+.slider__content{
     vertical-align: middle;
 }
 /*end slider block  */
@@ -114,18 +114,18 @@ a{
      display: flex;
      align-items: center;
  }
- .service-summary .iphone-photo{
+ .service-summary__iphone-photo{
      margin-left: 70px;
  }
- .service-summary .content{
+ .service-summary__content{
      padding: 70px;
  }
- .service-summary .content .title{
+.content__title{
      color: #FFFFFF;
      font-size: 40px;
      line-height: 60px;
  }
- .service-summary .content .desc{
+.content__desc{
      color: #FFFFFF;
      font-size: 20px;
      line-height: 30px;
