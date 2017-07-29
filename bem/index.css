@@ -180,8 +180,7 @@ a{
     border-bottom: solid 2px blue;
 }
 
-.main-nav__title--active{
+.title--active{
     color: red;
 }
-
 /*end main-nav block  */
