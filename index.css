@@ -6,6 +6,43 @@
 p{
     margin: 0;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pull-left{}
+
+.pull-right{}
+
+.multi-columns{
+    padding: 0 15px;
+    display: flex;
+}
+
+.multi-columns .column-30{
+    width: 30%;
+}
+
+.multi-columns .column-70{
+    width: 70%;
+}
+
+.multi-columns.pull-left{}
+
+.multi-columns.pull-right{}
+
+.multi-columns .pull-left>*{
+    float: left;
+}
+
+.multi-columns .pull-right>*{
+    float: right;
+}
 /*end default block  */
 
 /*start page block  */
@@ -122,3 +159,29 @@ p{
      vertical-align: middle;
  }
 /*end btn-sign-up block*/
+
+/*start main-nav block  */
+.main-nav{
+    display: flex;
+    padding: 0;
+}
+
+.main-nav .item{
+    padding: 10px 10px;
+}
+
+.main-nav .item .title{
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+}
+
+.main-nav .item.active{
+    border-bottom: solid 2px blue;
+}
+
+.main-nav .item.active .title{
+    color: red;
+}
+
+/*end main-nav block  */
