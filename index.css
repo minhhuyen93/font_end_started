@@ -1,3 +1,4 @@
+/*start default block  */
 .body{
     margin: 0;
 }
@@ -5,45 +6,119 @@
 p{
     margin: 0;
 }
+/*end default block  */
 
-.brand{
-    border: 1px solid blue;
-    width: 150px;
-    margin: 20px 0;
-}
-
-.brand .logo{
-    width: 40px;
-}
-
-.brand .text{
-    font-size: 30px;
-    margin-left: 20px;
-}
+/*start page block  */
 
 .page .header{
-    width: 100%;
     margin-bottom: 5px;
-    border: 1px solid red;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .page .content{
     width: 100%;
-    height: 500px;
-    margin-bottom: 5px;
-    border: 1px solid red;
 }
 
 .page .footer{
     width: 100%;
     height: 100px;
     text-align: center;
-    border: 1px solid red;
 }
 
-.copy-right{
-    margin: 40px auto;
-    font-size: 13px;
-    color: gray;
+/*end page block  */
+
+/*start brand block  */
+.brand{}
+
+.brand .logo{
+    width: 40px;
 }
+
+.brand .text{
+    margin-left: 10px;
+    font-size: 30px;
+}
+/*end brand block  */
+
+/*start slider block  */
+
+/*start slider block  */
+.slider{
+     background: url(images/bg.jpg) no-repeat center center;
+     background-size:cover; 
+     position: relative;
+     overflow: hidden;
+     position: relative;
+}
+
+.slider .prev{
+    top: calc(50% - 23px);
+    position: absolute;
+    font-size: 40px;
+    left: 30px;
+    display: flex;
+}
+
+.slider .next{
+    position: absolute;
+    top: calc(50% - 23px);
+    font-size: 40px;
+    right: 30px;
+    display: flex;
+}
+
+.slider .content{
+    vertical-align: middle;
+}
+/*end slider block  */
+
+/*start service-sumary block  */
+.service-summary{
+     display: flex;
+     align-items: center;
+ }
+ .service-summary .iphone-photo{
+     margin-left: 70px;
+ }
+ .service-summary .content{
+     padding: 70px;
+ }
+ .service-summary .content .title{
+     color: #FFFFFF;
+     font-size: 40px;
+     line-height: 60px;
+ }
+ .service-summary .content .desc{
+     color: #FFFFFF;
+     font-size: 20px;
+     line-height: 30px;
+ }
+/*end service-sumary block  */
+
+/*start btn-sign-up block*/
+ .btn-sign-up{
+     border: 1px solid blue;
+     background-color: blue;
+     padding: 10px 10px;
+ }
+ .btn-sign-up .icon{
+     color: blue;
+     display: inline-block;
+ }
+ .btn-sign-up .icon:before{
+     content: "\2713";
+     width: 30px;
+     height: 30px;
+     background: #fff;
+     line-height: 30px;
+     border: 1px solid;
+     border-radius: 50%;
+     display: block;
+ }
+ .btn-sign-up .text{
+     font-size: 16px;
+     color: #fff;
+     margin-left: 10px;
+     vertical-align: middle;
+ }
+/*end btn-sign-up block*/
