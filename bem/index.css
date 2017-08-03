@@ -32,6 +32,10 @@ a{
     width: 70%;
 }
 
+.multi-columns__column-50{
+    width: 50%;
+}
+
 .multi-columns.pull-left{}
 
 .multi-columns.pull-right{}
@@ -62,6 +66,9 @@ a{
     text-align: center;
 }
 
+.page__services{
+    display: flex;
+}
 /*end page block  */
 
 /*start brand block  */
@@ -184,3 +191,44 @@ a{
     color: red;
 }
 /*end main-nav block  */
+
+/*start services block  */
+
+.services__item{
+    width: 33.33%;
+    text-align: center;
+}
+
+.services__item__title{
+    color:#75aaf5;
+    margin: 20px 15px 15px;
+}
+
+.services__item__desc{
+    color:#dadada;
+    margin: 0 15px;
+}
+/*end services block  */
+
+/*start shopping-cart block  */
+.shopping-cart{
+    text-align: center;
+}
+
+.shopping-cart__title{
+    color: #7E7F81;
+}
+
+.shopping-cart__content{
+    text-align: left;
+}
+
+.shopping-cart__content__title{
+    font-size: 20px;
+    left: 0;
+}
+
+.shopping-cart__content__desc{
+    color: #7E7F81;
+}
+/*end shopping-cart block  */
