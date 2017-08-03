@@ -62,6 +62,9 @@ a{
     text-align: center;
 }
 
+.page__services{
+    display: flex;
+}
 /*end page block  */
 
 /*start brand block  */
@@ -184,3 +187,21 @@ a{
     color: red;
 }
 /*end main-nav block  */
+
+/*start services block  */
+
+.services__item{
+    width: 33.33%;
+    text-align: center;
+}
+
+.services__item__title{
+    color:#75aaf5;
+    margin: 20px 15px 15px;
+}
+
+.services__item__desc{
+    color:#dadada;
+    margin: 0 15px;
+}
+/*end services block  */
