@@ -19,10 +19,23 @@ a {
   .multi-columns__column-70 {
     width: 70%; }
 
+.multi-columns {
+  padding: 0 15px;
+  display: flex; }
+
+.multi-columns__column-30 {
+  width: 30%; }
+
+.multi-columns__column-70 {
+  width: 70%; }
+
+.multi-columns .pull-left > * {
+  float: left; }
+
 /*end default block  */
 /*start page block  */
 .page {
-  background-color: red; }
+  background-color: white; }
   .page__header {
     margin-bottom: 5px;
     padding-left: 40px; }
@@ -34,3 +47,25 @@ a {
     text-align: center; }
 
 /*end page block  */
+/*start brand block  */
+.brand__logo {
+  width: 40px; }
+
+.brand__text {
+  margin-left: 10px;
+  font-size: 30px;
+  color: yellow; }
+
+/*end brand block  */
+.main-nav {
+  float: right;
+  display: flex;
+  padding: 0; }
+  .main-nav__item {
+    padding: 10px 10px; }
+  .main-nav__title {
+    font-size: 20px;
+    color: black;
+    line-height: 20px; }
+  .main-nav__item--active {
+    border-bottom: solid 2px blue; }

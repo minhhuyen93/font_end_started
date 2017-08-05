@@ -1,5 +1,4 @@
-$default-page-content-width: 100%;
-$default-page-footer-width: 100%;
-$default-page-footer-height: 100px;
-$default-page-width: 50%;
-$bg-page-color: red;
+@import "../../components/variables.scss";
+$bg-page-color: white;
+$brand-font-color: yellow;
+$navigation-align: right;

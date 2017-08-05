@@ -31,4 +31,25 @@ a{
         width: 70%;
     }
 }
+
+.multi-columns{
+    padding: 0 15px;
+    display: flex;
+}
+
+.multi-columns__column-30{
+    width: 30%;
+}
+
+.multi-columns__column-70{
+    width: 70%;
+}
+
+.multi-columns.pull-left{}
+
+.multi-columns.pull-right{}
+
+.multi-columns .pull-left>*{
+    float: left;
+}
 /*end default block  */

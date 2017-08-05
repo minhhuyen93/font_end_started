@@ -1,0 +1,19 @@
+@mixin create-list($navigation-align: $navigation-align){
+    display: flex;
+    padding: 0;
+    float: $navigation-align;
+
+    &__item {
+        padding: 10px 10px;
+    }
+
+    &__title {
+        font-size: 20px;
+        color: black;
+        line-height: 20px;
+    }
+
+    &__item--active{
+        border-bottom: solid 2px blue;
+    }
+}

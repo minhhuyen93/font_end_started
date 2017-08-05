@@ -1,0 +1,6 @@
+@import "./mixins/brand.scss";
+/*start brand block  */
+.brand{
+    @include create-brand();
+}
+/*end brand block  */
