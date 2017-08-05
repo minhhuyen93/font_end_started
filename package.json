@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass --includes-path sass sass/index.scss css/style.css"
+    "sass": "node-sass --includes-path sass sass/themes/blue/index.scss css/style.css",
+    "sass_default": "node-sass --includes-path sass sass/themes/default/index.scss css/style.css"
   },
   "repository": {
     "type": "git",
