@@ -1,0 +1,17 @@
+
+@mixin create-list-service() {
+    &__item{
+            width: 33.33%;
+            text-align: center;
+        
+            &__title {
+                color:#75aaf5;
+                margin: 20px 15px 15px;
+            }
+
+            &__desc {
+                color:#dadada;
+                margin: 0 15px;
+            }
+        }
+}

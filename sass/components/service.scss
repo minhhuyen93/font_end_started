@@ -1,0 +1,7 @@
+@import "./mixins/service.scss";
+
+/*start services block  */
+.service {
+    @include create-list-service();
+}
+/*end services block  */

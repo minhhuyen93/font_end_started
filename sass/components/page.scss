@@ -1,0 +1,6 @@
+@import "./mixins/page.scss";
+/*start page block  */
+.page{
+    @include create-page($bg-page-color,$content-width:$default-page-width, $footer-width:$default-page-width);
+}
+/*end page block  */
