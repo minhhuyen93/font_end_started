@@ -212,5 +212,6 @@ text-align: center;
 
 .shopping-cart__desc{
     color: #7E7F81;
+    text-align: left;
 }
 /*end shopping-cart block  */
