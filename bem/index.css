@@ -191,22 +191,26 @@ a{
 /*start shopping-cart block  */
 .shopping-cart{
     text-align: center;
+    display: flex;
 }
 
 .shopping-cart__title{
     color: #7E7F81;
+    padding-left: 200px;
 }
 
 .shopping-cart__content{
-    text-align: left;
+text-align: center;
 }
 
-.shopping-cart__content__title{
+.shopping-cart__logo{
+}
+
+.shopping-cart__subtitle{
     font-size: 20px;
-    left: 0;
 }
 
-.shopping-cart__content__desc{
+.shopping-cart__desc{
     color: #7E7F81;
 }
 /*end shopping-cart block  */
