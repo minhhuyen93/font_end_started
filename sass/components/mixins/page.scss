@@ -1,0 +1,19 @@
+$default-page-width: 50%;
+
+@mixin create-page($bg-page-color, $content-width:$default-page-width, $footer-width:$default-page-width, $footer-height:50px){
+    background-color: $bg-page-color;
+    &__header {
+        margin-bottom: 5px;
+        padding-left: 40px;
+    }
+
+    &__content {
+        width: $content-width;
+    }
+
+    &__footer {
+        width: $footer-width;
+        height: $footer-height;
+        text-align: center;
+    }
+}

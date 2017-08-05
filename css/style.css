@@ -1,2 +1,36 @@
+/*start default block  */
 .body {
-  color: red; }
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.multi-columns {
+  padding: 0 15px;
+  display: flex; }
+  .multi-columns__column-30 {
+    width: 30%; }
+  .multi-columns__column-70 {
+    width: 70%; }
+
+/*end default block  */
+/*start page block  */
+.page {
+  background-color: red; }
+  .page__header {
+    margin-bottom: 5px;
+    padding-left: 40px; }
+  .page__content {
+    width: 50%; }
+  .page__footer {
+    width: 50%;
+    height: 50px;
+    text-align: center; }
+
+/*end page block  */
