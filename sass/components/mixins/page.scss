@@ -1,5 +1,3 @@
-$default-page-width: 50%;
-
 @mixin create-page($bg-page-color, $content-width:$default-page-width, $footer-width:$default-page-width, $footer-height:50px){
     background-color: $bg-page-color;
     &__header {
