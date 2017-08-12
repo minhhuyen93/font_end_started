@@ -1,0 +1,29 @@
+p {
+  margin: 0; }
+
+ul {
+  list-style: none;
+  margin: 0; }
+
+h1 {
+  margin: 0; }
+
+.multi-colums {
+  width: 100%;
+  display: flex; }
+  .multi-colums__colum-30 {
+    width: 30%; }
+  .multi-colums__colum-70 {
+    width: 70%; }
+
+.main-nav {
+  padding: 5px 10px;
+  display: flex; }
+  .main-nav__item {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px; }
+
+.brand {
+  color: red; }

@@ -1,0 +1,6 @@
+
+@import "./mixins/page.scss";
+
+.page{
+    @include create-page();
+}

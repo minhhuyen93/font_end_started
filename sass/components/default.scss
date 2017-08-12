@@ -1,0 +1,24 @@
+p {
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.multi-colums{
+    width: 100%;
+    display: flex;
+    &__colum-30{
+        width: 30%;
+    }
+
+    &__colum-70{
+        width: 70%;
+    }
+}

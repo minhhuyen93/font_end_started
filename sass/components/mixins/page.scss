@@ -1,0 +1,9 @@
+@mixin create-page(){
+    &__header{
+        display: flex;
+    }
+
+    &__conent{
+        display: flex;
+    }
+}
