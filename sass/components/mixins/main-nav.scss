@@ -1,7 +1,7 @@
-@mixin create-main-nav() {
+@mixin create-main-nav($navigation-align) {
     padding: 5px 10px;
     display: flex;
-
+    float: $navigation-align;  
     &__item {
         width: 80px;
         height: 30px;

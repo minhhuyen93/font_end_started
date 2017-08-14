@@ -1,9 +1,8 @@
-@mixin create-page(){
+@mixin create-page($header-background){
     &__header{
-        display: flex;
+        background-color: $header-background;
     }
 
     &__conent{
-        display: flex;
     }
 }
