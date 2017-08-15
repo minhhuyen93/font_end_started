@@ -1,5 +1,5 @@
-//@import "./mixins/introduction.scss";
+@import "./mixins/introduction.scss";
 
-// .introduction{
-//     @include create-introduction();
-// }
+.introduction{
+    @include create-introduction();
+}

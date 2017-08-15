@@ -1,8 +1,9 @@
-@mixin create-page($header-background){
-    &__header{
+@mixin create-page($header-background, $page-content-background-image) {
+    &__header {
         background-color: $header-background;
     }
 
-    &__conent{
+    &__content {
+        background-image: $page-content-background-image;
     }
 }

@@ -19,6 +19,32 @@ h1 {
 .page__header {
   background-color: gray; }
 
+.page__content {
+  background-image: "../../exercise/images/back_ground.jpg"; }
+
+.introduction {
+  text-align: center;
+  background-image: url("../../../images/back_ground.png");
+  background-repeat: no-repeat;
+  border: solid 1px red;
+  background-color: gray;
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .introduction__title {
+    font-size: 16px;
+    color: white;
+    display: block; }
+  .introduction__content {
+    padding: 20px 0;
+    color: white;
+    display: block;
+    font-size: 50px; }
+  .introduction__explore-action {
+    color: gray;
+    font-size: 13px;
+    height: 20px;
+    text-align: center; }
+
 .main-nav {
   padding: 5px 10px;
   display: flex;

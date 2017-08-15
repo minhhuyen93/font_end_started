@@ -1,0 +1,30 @@
+
+@mixin create-introduction() {
+    text-align: center;
+    background-image: url("../../../images/back_ground.png");
+    background-repeat: no-repeat;
+    border: solid 1px red;
+    background-color: gray;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    &__title {
+        font-size: 16px;
+        color: white;
+        display: block;
+    }
+
+    &__content {
+        padding: 20px 0;
+        color: white;
+        display: block;
+        font-size: 50px;
+    }
+
+    &__explore-action {
+        color: gray;
+        font-size: 13px;
+        height: 20px;
+        text-align: center;
+    }
+}
