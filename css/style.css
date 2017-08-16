@@ -24,9 +24,8 @@ h1 {
 
 .introduction {
   text-align: center;
-  background-image: url("../../../images/back_ground.png");
+  background-image: url("../../../exercise/images/back_ground.png");
   background-repeat: no-repeat;
-  border: solid 1px red;
   background-color: gray;
   padding-top: 100px;
   padding-bottom: 50px; }
@@ -40,9 +39,10 @@ h1 {
     display: block;
     font-size: 50px; }
   .introduction__explore-action {
-    color: gray;
+    color: yellow;
     font-size: 13px;
-    height: 20px;
+    height: 30px;
+    line-height: 30px;
     text-align: center; }
 
 .main-nav {
@@ -55,5 +55,37 @@ h1 {
     text-align: center;
     line-height: 30px; }
 
+.services__title {
+  text-align: center;
+  font-size: 30px;
+  color: black; }
+
+.services__container {
+  display: flex; }
+
+.services__item {
+  text-align: center;
+  padding: 0 10px; }
+  .services__item__title {
+    padding: 20px 0;
+    display: block;
+    color: red; }
+
 .brand {
   font-size: 30px; }
+
+.icon, .icon__caculator, .icon__chart, .icon__note {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  display: block; }
+
+.icon__caculator {
+  background-image: url("../../../exercise/images/caculator.png"); }
+
+.icon__chart {
+  background-image: url("../../../exercise/images/chart.png"); }
+
+.icon__note {
+  background-image: url("../../../exercise/images/note.png"); }

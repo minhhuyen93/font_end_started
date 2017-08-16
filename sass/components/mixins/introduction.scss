@@ -1,9 +1,8 @@
 
-@mixin create-introduction() {
+@mixin create-introduction($page-content-background-image) {
     text-align: center;
-    background-image: url("../../../images/back_ground.png");
+    background-image: url($page-content-background-image);
     background-repeat: no-repeat;
-    border: solid 1px red;
     background-color: gray;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -22,9 +21,10 @@
     }
 
     &__explore-action {
-        color: gray;
+        color: yellow;
         font-size: 13px;
-        height: 20px;
+        height: 30px;
+        line-height: 30px;
         text-align: center;
     }
 }

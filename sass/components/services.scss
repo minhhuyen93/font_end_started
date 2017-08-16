@@ -1,5 +1,5 @@
-//@import "./mixins/services.scss";
+@import "./mixins/services.scss";
 
-// .services{
-//     @include create-services();
-// }
+.services{
+    @include create-services();
+}

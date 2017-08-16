@@ -1,0 +1,24 @@
+.icon { 
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+@mixin create-icon($icon-caculator, $icon-chart, $icon-note) {
+    &__caculator {
+        @extend .icon;
+        background-image: url($icon-caculator);
+    }
+
+    &__chart {
+        @extend .icon;
+        background-image: url($icon-chart);
+    }
+
+    &__note {
+        @extend .icon;
+        background-image: url($icon-note);
+    }
+}

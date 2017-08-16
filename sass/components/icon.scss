@@ -1,0 +1,5 @@
+@import "./mixins/icon.scss";
+
+.icon {
+    @include create-icon($icon-caculator, $icon-chart, $icon-note);
+}
