@@ -24,9 +24,8 @@ h1 {
 
 .introduction {
   text-align: center;
-  background-image: url("../../../exercise/images/back_ground.png");
+  background-image: url("../../exercise/images/back_ground.jpg");
   background-repeat: no-repeat;
-  background-color: gray;
   padding-top: 100px;
   padding-bottom: 50px; }
   .introduction__title {
@@ -68,14 +67,12 @@ h1 {
   padding: 0 10px; }
   .services__item__title {
     padding: 20px 0;
-    display: block;
-    color: red; }
+    display: block; }
 
 .brand {
   font-size: 30px; }
 
 .icon, .icon__caculator, .icon__chart, .icon__note {
-  background-color: red;
   width: 30px;
   height: 30px;
   margin: 0 auto;

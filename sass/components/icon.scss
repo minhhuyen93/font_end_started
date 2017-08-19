@@ -3,3 +3,10 @@
 .icon {
     @include create-icon($icon-caculator, $icon-chart, $icon-note);
 }
+
+
+///need to rafactor for flexible css file
+//example
+//.icon__chart{
+    //@include create-icon-chart($chart-color);
+//}
