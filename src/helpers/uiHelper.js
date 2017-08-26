@@ -7,9 +7,13 @@
 
     function get(templateUrl) {
         var def = PromiseFactory.create();
-        $.get(templateUrl, function (html) {
-            def.resolve(html);
-        });
+        $.get(templateUrl)
+            .then(function () {
+                def.resolve(html);
+            })
+            .catch(function (errors) {
+                def.reject(errors);
+            });
         return def;
     }
 
