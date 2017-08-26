@@ -1,20 +1,69 @@
 function HomePage() {
-    var self = this;
-    self.renderTo = "";
-    self.render = render;
-    return self;
-
-    function render(renderTo = "body") {
-        var self = this;
-        this.renderTo = renderTo;
-        var templateUrl = "src/pages/homepage.html";
-
-        window.uiHelper.get(templateUrl)
-            .then((html) => {
-                window.uiHelper.append(self.renderTo, html);
-            })
-            .catch(function (error) {
-                console.log("huyen add error");
-            });
-    }
+    Page.call(this, "src/pages/homepage.html");
 }
+
+HomePage.prototype = new Page();
+HomePage.prototype.constructor = HomePage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function HomePage() {
+//     var self = this;
+//     self.renderTo = "";
+//     self.render = render;
+//     return self;
+
+//     function render(renderTo = "body") {
+//         var self = this;
+//         this.renderTo = renderTo;
+//         var templateUrl = "src/pages/homepage.html";
+
+//         window.uiHelper.get(templateUrl)
+//             .then((html) => {
+//                 window.uiHelper.append(self.renderTo, html);
+//             })
+//             .catch(function (error) {
+//                 console.log("huyen add error");
+//             });
+//     }
+// }
