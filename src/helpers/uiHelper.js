@@ -8,7 +8,7 @@
     function get(templateUrl) {
         var def = PromiseFactory.create();
         $.get(templateUrl)
-            .then(function () {
+            .then(function (html) {
                 def.resolve(html);
             })
             .catch(function (errors) {

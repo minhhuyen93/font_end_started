@@ -7,7 +7,7 @@ function HomePage() {
     function render(renderTo = "body") {
         var self = this;
         this.renderTo = renderTo;
-        var templateUrl = "src/pages/homepage1.html";
+        var templateUrl = "src/pages/homepage.html";
 
         window.uiHelper.get(templateUrl)
             .then((html) => {
