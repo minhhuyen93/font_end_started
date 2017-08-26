@@ -6,14 +6,15 @@
     return;
 
     function get(templateUrl) {
-        var def = new Promise();
-        $.get(templateUrl, function(){
-            def.resolve();
+        var def = PromiseFactory.create();
+        $.get(templateUrl, function (html) {
+            def.resolve(html);
         });
         return def;
     }
 
-    function append(selector, htmlContent) {
-        $(selector).append(htmlContent);
+    function append(selector, html) {
+        $(selector).append(html);
     }
+
 })(window);
