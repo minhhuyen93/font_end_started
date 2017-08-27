@@ -1,1 +1,4 @@
-console.log("huyen typescript update");
+import { HomePage } from "./pages/homePage";
+let homePage = new HomePage();
+
+homePage.render();
