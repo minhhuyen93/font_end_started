@@ -6,10 +6,13 @@
     return;
 
     function get(templateUrl) {
-        var def = new Promise();
-        $.get(templateUrl, function(){
-            def.resolve();
-        });
+        var def = PromiseFactory.create();
+        $.get(templateUrl)
+            .then((html) => {
+                def.resolve(html);
+            }).catch((errors) => {
+                def.reject(errors);
+            });
         return def;
     }
 
