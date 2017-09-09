@@ -1,17 +1,20 @@
-System.register([], function(exports_1) {
-    var HomePage;
+System.register(["../common/page"], function (exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var page_1, HomePage;
     return {
-        setters:[],
-        execute: function() {
-            HomePage = (function () {
-                function HomePage() {
+        setters: [
+            function (page_1_1) {
+                page_1 = page_1_1;
+            }
+        ],
+        execute: function () {
+            HomePage = class HomePage extends page_1.BasePage {
+                constructor() {
+                    super("src/pages/homePage.html");
                 }
-                HomePage.prototype.render = function () {
-                    console.log("huyen typescript update");
-                };
-                return HomePage;
-            })();
+            };
             exports_1("HomePage", HomePage);
         }
-    }
+    };
 });

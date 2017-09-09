@@ -1,5 +1,7 @@
-export class HomePage {
-    public render() {
-        console.log("huyen typescript update");
+import { BasePage } from "../common/page";
+
+export class HomePage extends BasePage {
+    constructor() {
+        super("src/pages/homePage.html");
     }
 }
