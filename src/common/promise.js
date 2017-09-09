@@ -7,16 +7,16 @@ PromiseFactory.create = function () {
     function Promise() {
         var self = this;
         self.data = null;
-        self.onSuccessCallBack = null;
+        self.onSuccesscallback = null;
         self.then = then;
         self.resolve = resolve;
         self.errors = null;
-        self.onErrorsCallBack = null;
+        self.onErrorscallback = null;
         self.reject = reject;
         self.catch = error;
 
-        function then(callBack) {
-            this.onSuccessCallBack = callBack;
+        function then(callback) {
+            this.onSuccesscallback = callback;
             process.call(this);
             return this;
         }
@@ -27,8 +27,8 @@ PromiseFactory.create = function () {
             return this;
         }
 
-        function error(callBack) {
-            this.onErrorsCallBack = callBack;
+        function error(callback) {
+            this.onErrorscallback = callback;
             process.call(this);
             return this;
         }
@@ -40,11 +40,11 @@ PromiseFactory.create = function () {
         }
 
         function process() {
-            if (this.onSuccessCallBack && this.data) {
-                this.onSuccessCallBack(this.data);
+            if (this.onSuccesscallback && this.data) {
+                this.onSuccesscallback(this.data);
             }
-            if (this.errors && this.onErrorsCallBack) {
-                this.onErrorsCallBack(this.errors);
+            if (this.errors && this.onErrorscallback) {
+                this.onErrorscallback(this.errors);
             }
         }
     }
