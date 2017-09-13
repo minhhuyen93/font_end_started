@@ -1,0 +1,14 @@
+@mixin createPage($borderColorDefault){
+    &__header{
+        height: 200px;
+        border: 1px solid $borderColorDefault;
+    }
+    &__content{
+        height: 400px;
+        border: 1px solid $borderColorDefault;
+    }
+    &__footer{
+        height: 200px;
+        border: 1px solid $borderColorDefault;
+    }
+}

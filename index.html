@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <base href="./" />
+    <title>Html Excercise</title>
+    <link href="resources/css/style_default.css" rel="stylesheet" />
+</header>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./node_modules/systemjs/dist/system.src.js"></script>
+    <script>
+        System.config({
+            packages: {
+                "src": {
+                    main: "main.js",
+                    defaultJsExtension: true
+                }
+            }
+        });
+        System.import("src/main.js").catch(function (err) {
+            console.error(err);
+        });
+    </script>
+</body>
+
+</html>

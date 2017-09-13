@@ -1,0 +1,30 @@
+{
+  "name": "courese",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "lite": "lite-server",
+    "sass": "node-sass --include-path sass assets/sass/themes/default/index.scss resources/css/style_default.css",
+    "sass-blue": "node-sass --include-path sass assets/sass/themes/blue/index.scss resources/css/style_blue.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhhuyen93/font_end_started.git"
+  },
+  "author": "huyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhhuyen93/font_end_started/issues"
+  },
+  "homepage": "https://github.com/minhhuyen93/font_end_started#readme",
+  "dependencies": {
+    "lite-server": "^2.3.0",
+    "sass": "^1.0.0-beta.2",
+    "system": "^2.0.1",
+    "systemjs": "^0.20.18",
+    "tsc": "1.20150623.0",
+    "typescript": "2.5.2"
+  }
+}

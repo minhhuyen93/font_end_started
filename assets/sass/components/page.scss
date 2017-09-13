@@ -1,0 +1,4 @@
+@import "./mixins/page.scss";
+.page{
+    @include createPage($borderColorDefault);
+}
